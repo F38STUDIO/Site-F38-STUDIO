@@ -1,5 +1,11 @@
+import Layout from "../layout/layout";
 const CheckOut = () => {
-    return <h1>CheckOut</h1>;
+    return (
+      <Layout>
+        <h1>CheckOut</h1>;
+      </Layout>
+    );
+    
   };
   
   export default CheckOut;

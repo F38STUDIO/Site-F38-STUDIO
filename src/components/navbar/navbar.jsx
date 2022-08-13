@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-import logo from './1.png';
+import logo from '../../assets/imgs/1.png';
 import { BsCart ,BsHeart, BsSearch} from 'react-icons/bs';
 import { FaUser} from 'react-icons/fa';
 

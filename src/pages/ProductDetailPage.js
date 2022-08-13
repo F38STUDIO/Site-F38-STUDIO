@@ -1,5 +1,10 @@
+import Layout from "../layout/layout";
 const ProductDetailPage = () => {
-    return <h1>ProductDetailPage8</h1>;
+    return (
+      <Layout>
+        <h1>ProductDetailPage</h1>;
+      </Layout>
+    );
   };
   
   export default ProductDetailPage;

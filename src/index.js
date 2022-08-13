@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
+import Layout from './layout/layout';
 import Error from './pages/error';
 import HomeCatalogPage from './pages/HomeCatalogPage'
 import Cart from './pages/Cart'
@@ -16,7 +15,7 @@ import ProductDetailPage from './pages/ProductDetailPage'
 export default function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
+ 
     <Routes>
           <Route index element={<HomeCatalogPage />} />
           <Route path="/product" element={<ProductDetailPage />} />
@@ -24,7 +23,7 @@ export default function App() {
           <Route path="/cart" element={<Cart/>}/>
           <Route path="*" element={<Error />} /> 
     </Routes>
-    <Footer/>
+
     </BrowserRouter>
   );
 }
