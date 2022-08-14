@@ -4,11 +4,11 @@ import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './layout/layout';
-import Error from './pages/error';
-import HomeCatalogPage from './pages/HomeCatalogPage'
-import Cart from './pages/Cart'
-import CheckOut from './pages/CheckOut'
-import ProductDetailPage from './pages/ProductDetailPage'
+import Error from './pages/Error/error';
+import HomeCatalogPage from "./pages/Home/HomeCatalogPage"
+import Cart from './pages/Cart/Cart'
+import CheckOut from './pages/CheckOut/CheckOut'
+import ProductDetailPage from './pages/ProductDetail/ProductDetailPage'
 
 
 

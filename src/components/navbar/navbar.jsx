@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
@@ -41,7 +42,7 @@ function Navbar() {
             
 
             <div class=" col-xs-12 col-md-3  text-center">
-                <a href="/cart"><BsCart/></a>
+                <Link to="/cart"><BsCart/></Link>
                 <BsHeart/>
                 <FaUser/>
             </div>

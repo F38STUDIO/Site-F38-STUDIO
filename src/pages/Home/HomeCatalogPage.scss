@@ -1,0 +1,56 @@
+.myWimage{
+    min-height: 50vh;
+    background-size: cover;
+    position: relative;
+    color: white;
+    background-image: url(../../assets/imgs/Group5194.png);
+}
+.myWimageRd{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(37, 37, 37, 0.45);
+}
+.myCardRd{
+    width: 100%;
+    height: 100%;
+ 
+    background-color: rgba(37, 37, 37, 0.45);
+}
+.myRectangle{
+    background-image: url(../../assets/imgs/131.png);
+    background-position: right;
+    
+
+}
+.myRectangleT{
+    background-color: white;
+    border-bottom-right-radius: 8pc;
+
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .myWimage{
+        min-height: 28vh;
+    }
+  }
+
+
+.myCard1{
+background-color: #252525;
+}
+.myCard2{
+    background-image: url(../../assets/imgs/Maskgroup.png); 
+    background-size: cover;
+}
+.myCard3{
+    background-image: url(../../assets/imgs/Maskgroup1.png); 
+    background-size: cover;
+}
+.myCard4{
+    background-image: url(../../assets/imgs/Maskgroup2.png); 
+    background-size: cover;
+}
+
